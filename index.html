@@ -5,18 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cofe website</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="shortcut icon"
-      href="./image/site-favicons.png"
-      type="image/x-icon"
-    />
   </head>
   <body>
+    <!-- HEADER START -->
     <header class="header">
-      <div class="img-hero-top"></div>
-      <div class="img-hero-bottom"></div>
-      <div class="header-container container">
-        <div class="header-nav-container">
+      <div class="header-container">
+        <div class="header-nav-container container">
           <a class="site-logo" href="#">
             <img
               src="./image/site-logo.svg"
@@ -53,117 +47,196 @@
             />
           </div>
         </div>
-        <div class="header-content">
-          <h1>Enjoy your <span>coffee</span> before your activity</h1>
-          <p>
-            Boost your productivity and build your mood with a glass of coffee
-            in the morning
-          </p>
-          <div class="header-content-link">
-            <a class="header-content-order-link" href="#"
-              ><span>Order now</span>
-              <span>
-                <img src="./image/order-image.svg" alt="order image" /> </span
-            ></a>
-            <a class="header-content-more-link" href="#">More menu</a>
+        <div class="header-hero-container container">
+          <div class="header-hero-dec">
+            <h1 class="header-hero-dec-title">
+              Enjoy your <span class="orange-text">coffee</span> before your
+              activity
+            </h1>
+            <p class="header-hero-dec-caption">
+              Boost your productivity and build your mood with a glass of coffee
+              in the morning
+            </p>
+            <div class="header-hero-link-box">
+              <a class="btn header-hero-link-order" href="#"
+                ><span>Order now</span
+                ><img
+                  src="./image/hero-order.png"
+                  alt="Hero order image"
+                  width="22"
+                  height="22"
+              /></a>
+              <a class="btn header-hero-link-menu" href="#">More menu</a>
+            </div>
           </div>
-        </div>
-        <div class="header-cofe-img">
           <img
-            src="./image/hero-cofe-image.png"
-            alt="cofe image"
-            width="527"
+            class="hero-image"
+            src="./image/hero-image.png"
+            alt=""
+            width="526.70"
             height="416"
           />
         </div>
       </div>
-      <section class="popular-product">
-        <div class="popular-product-container container">
-          <h2 class="popular-product-title">Popular Now</h2>
-          <span class="popular-product-title-line"></span>
-          <div class="popular-product-lists">
-            <ul class="popular-product-list container">
-              <li class="product-item-bg">
-                <div class="product-item">
-                  <div class="product-item-images">
-                    <img src="./image/cofe.png" alt="" />
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="popular-now">
+        <div class="container popular-now-container">
+          <div class="popular-now_title_box">
+            <h2 class="popular-now_title">
+              Popular <span class="orange-line">Now</span>
+            </h2>
+          </div>
+          <div class="popular-now_box">
+            <ul class="popular-now-list">
+              <li class="popular-now-list-item">
+                <figure class="popular-list-item-image">
+                  <span class="popular-now-reating">4.8 ⭐</span
+                  ><img src="./image/vanilla-latte.png" alt="" />
+                </figure>
+                <div class="popular-body">
+                  <div class="popular-body-title-box">
+                    <h3 class="popular-body-title">Vanilla Latte</h3>
+                    <h3 class="popular-body-ordered">21 K</h3>
                   </div>
-                  <div class="product-item-dec">
-                    <div class="product-item-dec-title">
-                      <h3>Vanilla Latte</h3>
-                      <span>21 K</span>
+                  <div class="popular-body-order">
+                    <div class="popular-body-orders">
+                      <span class="popular-orders-hot">Hot</span>
+                      <span class="popular-orders-cold">Cold</span>
                     </div>
-                    <div class="product-item-links">
-                      <span> <a href="#">Hot</a><a href="#">Cold</a> </span
-                      ><a class="product-item-links-img-link" href="#"
-                        ><img
-                          src="./image/order-image.svg"
-                          alt=""
-                          width="18"
-                          height="17"
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="product-item-bg">
-                <div class="product-item">
-                  <div class="product-item-images">
-                    <img src="./image/espresso.png" alt="" />
-                  </div>
-                  <div class="product-item-dec">
-                    <div class="product-item-dec-title">
-                      <h3>Espresso</h3>
-                      <span>12 K</span>
-                    </div>
-                    <div class="product-item-links">
-                      <span> <a href="#">Hot</a><a href="#">Cold</a> </span>
-                      <a class="product-item-links-img-link" href="#">
-                        <img
-                          src="./image/order-image.svg"
-                          alt=""
-                          width="18"
-                          height="17"
-                        />
-                      </a>
-                    </div>
+                    <img
+                      src="./image/popular-body-order.png"
+                      alt=""
+                      width="43"
+                      height="43"
+                    />
                   </div>
                 </div>
               </li>
-              <li class="product-item-bg">
-                <div class="product-item">
-                  <div class="product-item-images">
-                    <img src="./image/hazelnut latte.png" alt="" />
+              <li class="popular-now-list-item">
+                <figure class="popular-list-item-image">
+                  <span class="popular-now-reating">4.8 ⭐</span>
+                  <img src="./image/espresso.png" alt="" />
+                </figure>
+                <div class="popular-body">
+                  <div class="popular-body-title-box">
+                    <h3 class="popular-body-title">Espresso</h3>
+                    <h3 class="popular-body-ordered">12 K</h3>
                   </div>
-                  <div class="product-item-dec">
-                    <div class="product-item-dec-title">
-                      <h3>Hazelnut Latte</h3>
-                      <span>23 K</span>
+                  <div class="popular-body-order">
+                    <div class="popular-body-orders">
+                      <span class="popular-orders-hot">Hot</span>
+                      <span class="popular-orders-cold">Cold</span>
                     </div>
-                    <div class="product-item-links">
-                      <span> <a href="#">Hot</a><a href="#">Cold</a> </span
-                      ><a class="product-item-links-img-link" href="#">
-                        <img
-                          src="./image/order-image.svg"
-                          alt=""
-                          width="18"
-                          height="17"
-                      /></a>
+                    <img
+                      src="./image/popular-body-order.png"
+                      alt=""
+                      width="43"
+                      height="43"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="popular-now-list-item">
+                <figure class="popular-list-item-image">
+                  <span class="popular-now-reating">4.8 ⭐</span>
+                  <img src="./image/hazelnut-latte.png" alt="" />
+                </figure>
+                <div class="popular-body">
+                  <div class="popular-body-title-box">
+                    <h3 class="popular-body-title">Hazelnut Latte</h3>
+                    <h3 class="popular-body-ordered">23 K</h3>
+                  </div>
+                  <div class="popular-body-order">
+                    <div class="popular-body-orders">
+                      <span class="popular-orders-hot">Hot</span>
+                      <span class="popular-orders-cold">Cold</span>
                     </div>
+                    <img
+                      src="./image/popular-body-order.png"
+                      alt=""
+                      width="43"
+                      height="43"
+                    />
                   </div>
                 </div>
               </li>
             </ul>
           </div>
-          <img
-            class="popular-product-bg-image"
-            src="./image/product-bg-image.png"
-            alt="product bg image"
-            width="1268"
-            height="367"
-          />
         </div>
       </section>
-    </header>
+
+      <section class="servise">
+        <div class="container servise-container">
+          <h2 class="servose-title">
+            How to use delivery <span class="orange-line">service</span>
+          </h2>
+          <ul class="servise-list">
+            <li class="servide-list-item">
+              <img
+                src="./image/servise-cofe.svg"
+                alt=""
+                width="159"
+                height="159"
+              />
+              <h4 class="servise-list-item-title">choose your coffee</h4>
+              <p class="servise-list-item-caption">
+                there are 20+ coffees for you
+              </p>
+            </li>
+            <li class="servide-list-item">
+              <img
+                src="./image/food-truck.svg"
+                alt=""
+                width="159"
+                height="159"
+              />
+              <h4 class="servise-list-item-title">we delivery it to you</h4>
+              <p class="servise-list-item-caption">Choose delivery service</p>
+            </li>
+            <li class="servide-list-item">
+              <img
+                src="./image/coffee-cup.svg"
+                alt=""
+                width="159"
+                height="159"
+              />
+              <h4 class="servise-list-item-title">Enjoy your coffee</h4>
+              <p class="servise-list-item-caption">Choose delivery service</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="about-us-container container">
+          <img
+            class="about-us-image"
+            src="./image/about-image.jpg"
+            alt="cofe hazelnut latte"
+          />
+          <div class="about-us-content">
+            <h2 class="about-us-title">About <span class="orange-line">us</span></h2>
+            <h3 class="about-us-subtitle">
+              We provide quality coffee, and ready to deliver.
+            </h3>
+            <p class="about-us-caption">
+              We are a company that makes and distributes delicious drinks. our
+              main product is made with a secret recipe and available in stores
+              worldwide.
+            </p>
+            <a class="about-us-link" href="#">Get your coffee</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer"></footer>
+    <!-- FOOTER END -->
   </body>
 </html>
